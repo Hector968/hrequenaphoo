@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCUESTA FUNVISIS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+   <div id="container">
+       <header>
+           <h1>Encuesta sismologica nacional</h1>
+           <p>Responde de manera clara las siguientes preguntas</p>
+       </header> 
+
+       <section>
+           <div id="resultado"></div>
+           <form name="quizForm" onsubmit="return verificarRespuestas()">
+           
+            <h3>1. ¿Cómo sintió el sismo?</h3>
+            <input type="radio" name="p1" value="a">1. No lo sentí <br/>
+            <input type="radio" name="p1" value="b">2. Algunos pocos lo sintieron en pisos altos de edificios <br/>
+            <input type="radio" name="p1" value="c">3. Pocos lo sintieron. Sensación semejante al paso de un camion liviano  <br/>
+            <input type="radio" name="p1" value="d">4. Sentido por muchos. Sensación semejante al paso de un camion pesado <br/>
+            <input type="radio" name="p1" value="e">5. Sentido por casi todos. Vibración parecida a la que produce un tren pasando muy cerca <br/>
+            <input type="radio" name="p1" value="f">6. Sentido por todos, tanto dentro como fuera de las edificaciones <br/>
+            <input type="radio" name="p1" value="g">7. Difícil mantenerse en pie. Sentido por personas en vehículos en movimiento <br/>
+            
+
+            <form name="quizForm" onsubmit="return verificarRespuestas()">
+           
+                <h3>2. ¿Cómo obervó el comportamiento de objetos?</h3>
+                <input type="radio" name="p2" value="a">1. No observé <br/>
+                <input type="radio" name="p2" value="b">2. Objetos colgantes pudieron oscilar <br/>
+                <input type="radio" name="p2" value="c">3. Platos, vasos, ventanas y otros objetos vibraron,tintinearon<br/>
+                <input type="radio" name="p2" value="d">4. Volcamiento de objetos inestables. Algunos árboles y postes pueden balancearse <br/>
+                <input type="radio" name="p2" value="e">5. Libros se caen de sus estantes y algunos muebles pesados se movieron <br/>
+                <input type="radio" name="p2" value="f">6. Objetos esbeltos se volvaron y muebles se desplazaron de su sitio <br/>
+                <input type="radio" name="p2" value="g">7. Posible caída de paredes,monumentos y otros objetos <br/>
+               
+
+                <form name="quizForm" onsubmit="return verificarRespuestas()">
+           
+                    <h3>3. ¿Efectos sobre las contruscciones?</h3>
+                    <input type="radio" name="p3" value="a">1. No sabe <br/>
+                    <input type="radio" name="p3" value="b">2. Crujir de paredes pero no aparecen grietas <br/>
+                    <input type="radio" name="p3" value="c">3. Posibles grietas menores en frisos <br/>
+                    <input type="radio" name="p3" value="d">4. Puede haber daño moderado en esructuras de baja calidad de consrucción <br/>
+                    <input type="radio" name="p3" value="e">5. Daño leve a moderado en estructuras ordinarias. Daños en paredes de mampostería <br/>
+                    <input type="radio" name="p3" value="f">6. Daño severo en estructuras de baja calidad de construcción y posibles derrumbes parciales <br/>
+                    <input type="radio" name="p3" value="g">7. Daño moderado en estructuras de buena calidad de construcción <br/>
+                    <input type="radio" name="p3" value="h">8. Daño severo en muchas estructuras bien construidas <br/>
+                    <input type="radio" name="p3" value="i">9. Sólo se mantienen de pie las estructuras de buena calidad de construcción <br/>
+                    
+
+                <form name="quizForm" onsubmit="return verificarRespuestas()">
+           
+                    <h3>4. ¿Efectos sobre las contruscciones?</h3>
+                    <input type="radio" name="p4" value="a">1. No sabe <br/>
+                    <input type="radio" name="p4" value="b">2. Expulsión de lodo en el terreno <br/>
+                    <input type="radio" name="p4" value="c">3. Grietas en el terreno <br/>
+                    <input type="radio" name="p4" value="d">4. Agrietaiento notable en el terreno y deslizamiento de tierra <br/>
+                    <input type="radio" name="p4" value="e">5. Hundimientos y deslizamientos en el terreno <br/>
+                    
+
+                    <input type="submit" value="Enviar">
+           </form>
+       </section>
+
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>

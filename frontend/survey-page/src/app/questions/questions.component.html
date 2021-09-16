@@ -1,0 +1,19 @@
+<h2>Encuesta</h2>
+<div>
+<ul class="questions">
+  <li *ngFor="let item of questions" >
+    {{item.question}}
+	<ul  >
+		<li *ngFor="let option of item.options" >
+			<label>
+				<input type="radio" [checked]="option.isSelected"  value="{{option.scale}}" (change)="isAllSelected(option)" />{{option.scale}}
+				{{option.decription}}
+			</label>    
+		</li>
+	</ul>
+  </li>
+</ul>
+<button (click)="sendAnswer()">
+	<a routerLink="/home" routerLinkActive="active">Enviar</a>
+</button>
+</div>
